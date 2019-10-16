@@ -49,6 +49,10 @@ html,body{
       border-bottom-right-radius: 25px;
       border-top-right-radius: 25px;
   }
+
+  .disabled {
+    pointer-events:none;         
+}
   
   .sidenav a {
     padding: 11px 8px 6px 16px;
