@@ -10,9 +10,9 @@ html,body{
 
 /* search bar */
 .srch{
-    width: 700px; 
+     
     border-width: 0px; 
-    margin-right: 140px; 
+    margin-right: 0px; 
     border-radius: 0.50rem;
 }
 
@@ -59,7 +59,6 @@ html,body{
     text-decoration: none;
     font-size: 15px;
     display: block;
-    font-weight: bold;
     height: 45px;
   }
   
@@ -70,10 +69,48 @@ html,body{
     border-top-right-radius: 25px;
   }
   
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 800px;
+    height: auto;
+    position: relative;
   }
+  .sidenavact{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .sidenav a {float: left;}
+
+  div.content {margin: auto; width: 100%;}
+
+  .sidenav a:hover{
+    border-bottom-right-radius: 0px; 
+    border-top-right-radius: 0px; 
+  }
+  .wel{
+    margin-right: 0 auto; 
+    width: 100%;
+    text-align: center;
+  }
+  .fas, .fa-credit-card {
+    display: none;
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: left;
+  }
+  .srch{ display: none;}
+  .form-inline{ margin-left: 0%;}
+}
+
+@media (max-width: 700px) {
+
+  }
+}
 
   .link{
       color: grey;
@@ -95,6 +132,16 @@ html,body{
       text-align: center;
       font-family: sans-serif;
       font-size: 1.75rem;
+      font-weight: 400;
+      line-height: 2.25rem;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+      word-break: break-word;
+      word-wrap: break-word;
+      color: #202124;
+      margin: 0 0 8px 0;
+      padding: 0;
+      text-align: center;
   }
 
   .subuser{
@@ -166,8 +213,6 @@ html,body{
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.25rem;
-    -webkit-hyphens: auto;
-    hyphens: auto;
     word-break: break-word;
     word-wrap: break-word;
     color: #5f6368;
@@ -179,3 +224,67 @@ html,body{
     text-decoration: none;
     }
 
+  .infobor{
+    border-radius: 10px;
+  }
+
+  .tr1{
+    letter-spacing: .07272727em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .6875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    text-transform: uppercase;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #5f6368;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tr2{
+    letter-spacing: .00625em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #202124;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .tr3{
+
+  }
+  
+  .licol{
+    float: left;
+    width: 200px;
+    padding: 20px 0;
+  }
+  
+  .licol2{
+    float: left;
+    width: 400px;
+    padding: 20px 0;
+  }
+
+  .licol3{
+    float: left;
+    padding-top: -10px;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  .lihov a:hover{
+    background-color: lightgrey;
+  }
