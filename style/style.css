@@ -14,6 +14,7 @@ html,body{
     border-width: 0px; 
     margin-right: 0px; 
     border-radius: 0.50rem;
+    width: 500px;
 }
 
 /* gray color */
@@ -32,15 +33,12 @@ html,body{
 
 
 /* */
-.sidenav {
-    width: 280px;
-    position: fixed;
-    z-index: 1;
-    top: 30px;
-    left: 0px;
-    background: transparent;
-    overflow-x: hidden;
-    padding-top: 60px ;
+.nav-link {
+  background-color: aliceblue;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 300px;
+  padding-top: 0px;
   }
 
   .sidenavact{
@@ -54,13 +52,6 @@ html,body{
     pointer-events:none;         
 }
   
-  .sidenav a {
-    padding: 11px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    display: block;
-    height: 45px;
-  }
   
   .sidenav a:hover {
     color: grey;
@@ -71,22 +62,9 @@ html,body{
   
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
-  .sidenav {
-    width: 800px;
-    height: auto;
-    position: relative;
-  }
   .sidenavact{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
-  }
-  .sidenav a {float: left;}
-
-  div.content {margin: auto; width: 100%;}
-
-  .sidenav a:hover{
-    border-bottom-right-radius: 0px; 
-    border-top-right-radius: 0px; 
   }
   .wel{
     margin-right: 0 auto; 
