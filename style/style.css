@@ -6,7 +6,9 @@ html,body{
 .conwidth{
     max-width: 1572px;
     padding-top: 80px;
+    margin-right: 150px;
 }
+
 
 /* search bar */
 .srch{
@@ -34,14 +36,35 @@ html,body{
 
 /* */
 .nav-link {
-  background-color: aliceblue;
+  background-color: white;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
-  width: 300px;
+
   padding-top: 0px;
   }
 
-  .sidenavact{
+  .nav-font{
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    -webkit-flex-basis: 0;
+    flex-basis: 0;
+    letter-spacing: .01785714em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+    color: #3c4043;
+}
+
+  .nav-link-act{
       color: #2196F3;
       background-color: aliceblue;
       border-bottom-right-radius: 25px;
@@ -53,7 +76,7 @@ html,body{
 }
   
   
-  .sidenav a:hover {
+  .nav-link:hover {
     color: grey;
     background-color: lightgrey;
     border-bottom-right-radius: 25px;
@@ -62,9 +85,13 @@ html,body{
   
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
-  .sidenavact{
+  .nav-link{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
   }
   .wel{
     margin-right: 0 auto; 
@@ -74,6 +101,13 @@ html,body{
   .fas, .fa-credit-card {
     display: none;
 }
+
+@media (min-width: 700px){
+.concards{
+    max-width: 900px; 
+  }
+}
+
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
@@ -242,21 +276,53 @@ html,body{
 
   }
   
-  .licol{
+  .lirow{
     float: left;
     width: 200px;
     padding: 20px 0;
   }
   
-  .licol2{
+  .lirow2{
     float: left;
-    width: 400px;
+    width: 500px;
     padding: 20px 0;
   }
 
-  .licol3{
+  .lirow3{
     float: left;
-    padding-top: -10px;
+    padding-top: 10px;
+  }
+
+  .limg{
+    width: 50%;
+    float: left;
+  }
+  
+  .limg2{
+    width: 815px;
+  }
+
+  .limg4{
+    float: right;
+    padding-top: -50px;
+    width: 50%;
+  }
+
+  .licol{
+    float: left;
+    width: 200px;
+    padding: 5px 0;
+  }
+  
+  .licol2{
+    float: left;
+    width: 550px;
+    padding: 5px 0;
+  }
+
+  .licol4{
+    float: left;
+    padding-top: 5px;
   }
 
   ul{
