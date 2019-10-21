@@ -5,10 +5,13 @@ html,body{
 /* Container Width */
 .conwidth{
     max-width: 1572px;
-    padding-top: 80px;
+    padding-top: 0px;
     margin-right: 150px;
 }
 
+.cards{
+  max-width: 1000px;
+}
 
 /* search bar */
 .srch{
@@ -32,14 +35,16 @@ html,body{
     padding-right: 0px;
 }
 
-
+.nopadl{
+  padding-left: 0px;
+}
 
 /* */
 .nav-link {
   background-color: white;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
-
+  color: #3c4043;
   padding-top: 0px;
   }
 
@@ -61,7 +66,7 @@ html,body{
     hyphens: auto;
     word-break: break-word;
     word-wrap: break-word;
-    color: #3c4043;
+    
 }
 
   .nav-link-act{
@@ -69,7 +74,7 @@ html,body{
       background-color: aliceblue;
       border-bottom-right-radius: 25px;
       border-top-right-radius: 25px;
-  }
+}
 
   .disabled {
     pointer-events:none;         
@@ -81,10 +86,10 @@ html,body{
     background-color: lightgrey;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
-  }
+}
   
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   .nav-link{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
@@ -129,7 +134,7 @@ html,body{
   }
 
   div.content {
-    padding-top: 90px;
+    padding-top: 0px;
     height: 870px;
     padding-right: 30px;;
   }
@@ -142,7 +147,7 @@ html,body{
 
   .user{
       text-align: center;
-      font-family: sans-serif 'Roboto' Arial, sans-serif;
+      font-family: sans-serif;
       font-size: 1.75rem;
       font-weight: 400;
       line-height: 2.25rem;
@@ -164,8 +169,8 @@ html,body{
     color: #5f6368;
   }
 
-  .cardheader{
-    font-family: 'Google Sans','Roboto',Arial,sans-serif;
+  .cardHeader{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
     font-size: 1.375rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -178,7 +183,7 @@ html,body{
 
   .cardPara{
     letter-spacing: .01428571em;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.25rem;
@@ -192,7 +197,7 @@ html,body{
 
   .cardFoot{
     letter-spacing: .01785714em;
-    font-family: 'Google Sans','Roboto',Arial,sans-serif;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
     font-size: .875rem;
     font-weight: 500;
     line-height: 1.25rem;
@@ -205,7 +210,7 @@ html,body{
 
   .stor{
     letter-spacing: .00625em;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -221,7 +226,7 @@ html,body{
 
   .fpbp{
     letter-spacing: .01428571em;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.25rem;
@@ -242,7 +247,7 @@ html,body{
 
   .tr1{
     letter-spacing: .07272727em;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     font-size: .6875rem;
     font-weight: 500;
     line-height: 1rem;
@@ -258,7 +263,7 @@ html,body{
 
   .tr2{
     letter-spacing: .00625em;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -273,16 +278,7 @@ html,body{
   }
 
   .tr3{
-    letter-spacing: .01428571em;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.25rem;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-    word-break: break-word;
-    word-wrap: break-word;
-    color: #5f6368;
+    
   }
   
   .lirow{
@@ -302,27 +298,8 @@ html,body{
     padding-top: 10px;
   }
 
-  .lirow4{
-    float: left;
-    width: 550px;
-    padding: 5px 0;
-    text-align: center;
-    padding-right: 80px;
-  }
-
-  .lirow5{
-    float: left;
-    width: 400px;
-    padding: 20px 0;
-    text-align: center;
-  }
-
   .limg{
-    width: 55%;
-    float: left;
-  }
-
-  .fimg{
+    width: 50%;
     float: left;
   }
   
@@ -330,16 +307,10 @@ html,body{
     width: 815px;
   }
 
-  .limg3{
-    float: right;
-    padding-top: -50px;
-    width: auto;
-  }
-
   .limg4{
     float: right;
     padding-top: -50px;
-    width: auto;
+    width: 50%;
   }
 
   .licol{
