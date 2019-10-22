@@ -1,28 +1,268 @@
-<div class="card-deck">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Google Account</title>
+  </head>
+  <body>
 
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title cardheader">Ad personalization</h5>
-            <h6 class="card-subtitle mb-2 text-muted"> You can make ads more useful to you </h6>
-                <div class="tr2">
-                <div class="limg"> <img src="img/adsetting.png"> </div>
-                <div class="tr2"> Ad personalization <br> 
-                    <div class="cardPara"> Ads Google shows you are personalized </div> 
-                    <div class="tr2"> <i class="fas fa-check-circle "></i> On</div>
-                </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white pt-2">
+      <img src="img/logo.PNG" alt="missing">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <form class="form-center mx-auto">
+              <input type="text" class="form-control mr-lg-2 bg-light srch" placeholder="Search">
+          </form>
       </div>
+
+      <form class="form-inline">
+        <a href="#" > <i class="far fa-caret-square-down fa-2x gray"></i> </a> 
+        &nbsp;&nbsp;
+        <a href="#"> <i class="far fa-circle fa-2x gray"></i> </a>
+      </form>
+    </nav>
+    <!-- Side Navbar -->
+    <div class="container-fluid ">
+      <div class="row">
+          <div class="col-xl-3 px-1 bg-white ">
+              <div class=" sticky-top flex-grow-1">
+                  <div class="nav flex-xl-column pt-4 mt-5">
+                      <a href="index.html" class="nav-link nav-font"><i class="fas fa-user-circle px-3 py-3 fa-lg"></i>Home</a>
+                      <a href="info.html" class="nav-link nav-font"><i class="fas fa-file-invoice px-3 py-3  fa-lg"></i>Personal info</a>
+                      <a href="data.html" class="nav-link-act nav-font"><i class="fas fa-toggle-on pl-2 pr-3 py-3 fa-lg"></i>Data & personalization</a>
+                      <a href="#contact" class="nav-link nav-font"><i class="fas fa-user-lock pl-2 pr-3 py-3 fa-lg"></i>Security</a>
+                      <a href="#contact" class="nav-link nav-font"><i class="fas fa-users pl-2 pr-3 py-3 fa-lg"></i>People & sharing</a>
+                      <a href="#contact" class="nav-link nav-font py-3"><i class="fa-credit-card pl-2 pr-3 py-3 fa-lg "></i>Payments & subscriptions</a>
+                  </div>
+              </div>
+          </div>
+        
+          <!-- Main Content-->
+
+        <div class="col pt-2 conwidth" id="main">
+
+                <div class="container conwidth">
+                        <h1 class="user">Data & personalization</h1>
+                        <div class="subuser">Your data, activity, and preferences that help make Google services more useful to you</div>
+                </div>
+                
+                <!--list goes here-->
+
+                <div class="row justify-content-center my-5">
+                    <ul  class="list-group">
+                        <li class="list-group-item ">
+                            <h2 class="cardheader"> Take the Privacy Checkup</h2>
+                            <div class="limg2">
+                                <div class="limg tr3"> This step-by-step guide helps you choose the privacy settings that are right for you </div>
+                                    <div class="limg3"> <img src="img/data1.png">  </div>
+                            </div> 
+                            </a>
+                        </li>
+                        <div class="list-group-item">
+                            <a href="">
+                                <div class="limg2">    
+                                    <div class="limg "> Get Started </div>
+                                    <div class="limg4"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+
+
+                <div class="container mt-4">
+                    <div class="row justify-content-center">
+                            <ul class="list-group">
+                                <li class="list-group-item ">
+                                    <h2 class="cardheader"> Activity controls </h2>
+                                    <div class="limg2">
+                                        <div class="limg tr3"> You can choose to save your activity for better personalization across Google. Turn on or pause these settings at any time. </div>
+                                        <div class="limg3"> <img src="img/data2.png">  </div>
+                                    </div>
+                                </li>
+                                <div class="list-group-item ">
+                                    <a href="">
+                                        <div class="tr2">    
+                                            <div class="licol"> <i class="fas fa-redo-alt"></i>  Web & App Activity</div>
+                                            <div class="lirow4"> <i class="fas fa-check-circle "></i> On</div>
+                                            <div class="licol4"> <i class="fas fa-chevron-right pl-5 mt-1 "></i> </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="list-group-item ">
+                                    <a href="">
+                                        <div class="tr2">    
+                                            <div class="licol"> <i class="fas fa-map-marker-alt"></i>  Location History</div>
+                                            <div class="lirow4"> <i class="fas fa-check-circle "></i> On</div>
+                                            <div class="licol4"> <i class="fas fa-chevron-right pl-5 mt-1 "></i> </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="list-group-item ">
+                                    <a href="">
+                                        <div class="tr2">    
+                                            <div class="licol"> <i class="fab fa-youtube"></i> Youtube History</div>
+                                            <div class="lirow4"> <i class="fas fa-check-circle "></i> On</div>
+                                            <div class="licol4"> <i class="fas fa-chevron-right pl-5 mt-1 "></i> </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="list-group-item">
+                                    <a href="">
+                                        <div class="limg2">    
+                                            <div class="limg "> Manage your activity controls </div>
+                                            <div class="limg4"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </ul>
+                   
+                    <!-- 2nd list -->
+                    <!--Cards-->
+                    <div class="container my-5 cards2 conwidth">
+                        <div class="row justify-content-center">
+                    <div class="card-deck" >
+                            <div class="card">
+                              <div class="card-body">
+                                  <div class="limbod">
+                                <h5 class="card-title cardheader">Ad personalization</h5>
+                                <h6 class="card-subtitle mb-2 tr3 text-muted"> You can make ads more useful to you </h6>
+                            </div>
+                                    <div class="tr2 py-3">
+                                    <div class="fimg mx-3"> <img src="img/adsetting.png"> </div>
+                                    <div class="tr2"> Ad personalization <br> 
+                                        <div class="cardPara"> Ads Google shows you are personalized </div> 
+                                        <div class="tr2"> <i class="fas fa-check-circle "></i> On</div>
+                                    </div>
+                                    </div>
+                              </div>
+                              <div class="card-footer">
+                                    <a href="#"> Go to ads settings</a>  
+                              </div>
+                            </div>
+                    
+                    
+                    
+                            <div class="card">
+                              <div class="card-body">
+                                <div class="limbod">
+                                    <h5 class="card-title cardheader">Activity and timeline</h5>
+                                    <h6 class="card-subtitle mb-2 tr3 text-muted"> See the activity saved in your account and the places you've been. You can delete any or all your past activity.</h6>
+                                </div>
+                                <a href="#">
+                                <div class="libod tr2">
+                                    <div class="fimg pl-2 pr-3"><img src="img/datmap.png"> </div>
+                                    <div class="tr2 licol5"> My Activity <br>
+                                        <div class="cardPara"> Rediscover the things you've searched for, read, and watched </div> 
+                                    </div>
+                                    <div class="licol6"> <i class="far fa-stop-circle "></i> </div>
+                                </div>
+                                </a>
+                            <hr>
+                                <a href="#">
+                                <div class="libod tr2">
+                                    <div class="fimg pl-2 pr-3"><img src="img/datloc.png"> </div>
+                                    <div class="tr2 licol5">Timeline <br>
+                                        <div class="cardPara"> See where you've been based on your Location History </div> 
+                                    </div>
+                                    <div class="licol6"> <i class="far fa-stop-circle "></i></div>
+                                </div>
+                                </a>
+                              </div>
+                            </div>
+                    
+                          </div>
+                        </div>
+                    </div>
+                    <!-- cards end here -->
+                    </div>
+                </div>
+                   
+                    <!-- third list -->
+                    <div class="container mt-4">
+                        <div class="row justify-content-center">
+                                <ul class="list-group libod2">
+                                    <li class="list-group-item  pb-5">
+                                        
+                                            <h2 class="cardheader">  Things you create and do </h2>
+                                            <div class="tr3"> Check Google Dashboard to see a summary of your services and the data saved in your account </div>
+                                        
+                                    </li>
+                                    <li class="list-group-item pb-5">
+                                        <div class="pl-4">
+                                        <div class="licons ">
+                                            <a href="#">
+                                            <img class="d-flex mx-auto" src="img/webhis.png">
+                                            <div class="tr2 tac py-2">Search activity</div>
+                                            </a>
+                                        </div>
+                                        <div class="licons ">
+                                            <a href="#">
+                                            <img class="d-flex mx-auto" src="img/gmaps.png">
+                                            <div class="tr2 tac py-2">Maps</div>
+                                            </a>
+                                        </div>
+                                        <div class="licons ">
+                                            <a href="#">
+                                            <img class="d-flex mx-auto" src="img/gogplay.png">
+                                            <div class="tr2 tac py-2">Google Play</div>
+                                            </a>
+                                        </div>
+                                        <div class="licons ">
+                                            <a href="#">
+                                            <img class="d-flex mx-auto" src="img/youlog.png">
+                                            <div class="tr2 tac py-2">Youtube</div>
+    
+                                            </a>
+                                        </div>
+                                        <div class="licons">
+                                            <a href="#">
+                                            <img class="d-flex mx-auto" src="img/gmailog.png">
+                                            <div class="tr2 tac py-2">Gmail</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="list-group-item">
+                                    <a href="">
+                                        <div class="limg2">    
+                                            <div class="limg "> Go to Google Dashboard </div>
+                                            <div class="limg4"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                </ul>
+                        
+                        </div>
+                    </div>
+
+
+
+                
+
+                <!-- List ends here -->
+
+        </div>
+
+                
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
