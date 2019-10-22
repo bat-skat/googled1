@@ -312,10 +312,10 @@ html,body{
 
   .lirow4{
     float: left;
-    width: 550px;
+    width: 510px;
     padding: 5px 0;
     text-align: center;
-    padding-right: 80px;
+    padding-right: 0px;
   }
 
   .lirow5{
