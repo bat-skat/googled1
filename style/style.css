@@ -252,7 +252,7 @@ html,body{
 
   .tr1{
     letter-spacing: .07272727em;
-    font-family: Roboto,Arial,sans-serif;
+    font-family: 'Roboto',Arial,sans-serif;
     font-size: .6875rem;
     font-weight: 500;
     line-height: 1rem;
@@ -268,7 +268,7 @@ html,body{
 
   .tr2{
     letter-spacing: .00625em;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: 'Google Sans' 'Roboto',Arial,sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -323,6 +323,20 @@ html,body{
     width: 400px;
     padding: 20px 0;
     text-align: center;
+  }
+
+  .lirow6{
+    float: left;
+    width: 450px;
+    padding: 5px 0;
+    padding-right: 0px;
+    margin-left: 100px;
+  }
+
+  .lirow7{
+    width: 515px;
+    margin-left: 100px;
+    float: left;
   }
 
   .limg{
@@ -400,6 +414,29 @@ html,body{
     margin-top: 28px;
   }
 
+  .licol7{
+    float: left;
+    max-width: 50px;
+    margin-right: 8px;
+  }
+
+  .licol8{
+    width: 255px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .licol9{
+    width: 350px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 35px;
+  }
+
+
   ul{
     list-style-type: none;
   }
@@ -415,3 +452,6 @@ html,body{
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
+  li.borderless {
+     border-top: 0 none; 
+    }
