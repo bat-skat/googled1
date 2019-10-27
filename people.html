@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Google Account</title>
   </head>
   <body>
@@ -34,33 +33,165 @@
       </form>
     </nav>
     <!-- Side Navbar -->
-    <div class="container-fluid ">
-      <div class="row">
-          <div class="col-xl-3 px-1 bg-white ">
-              <div class=" sticky-top flex-grow-1">
-                  <div class="nav flex-xl-column pt-4 mt-5">
-                      <a href="index.html" class="nav-link nav-font"><i class="fas fa-user-circle px-3 py-3 fa-lg"></i>Home</a>
-                      <a href="info.html" class="nav-link nav-font"><i class="fas fa-file-invoice px-3 py-3  fa-lg"></i>Personal info</a>
-                      <a href="data.html" class="nav-link nav-font"><i class="fas fa-toggle-on pl-2 pr-3 py-3 fa-lg"></i>Data & personalization</a>
-                      <a href="people.html" class="nav-link-act nav-font"><i class="fas fa-user-lock pl-2 pr-3 py-3 fa-lg"></i>Security</a>
-                      <a href="#contact" class="nav-link nav-font"><i class="fas fa-users pl-2 pr-3 py-3 fa-lg"></i>People & sharing</a>
-                      <a href="#contact" class="nav-link nav-font py-3"><i class="fa-credit-card pl-2 pr-3 py-3 fa-lg "></i>Payments & subscriptions</a>
-                  </div>
-              </div>
-          </div>
-        
-          <!-- Main Content-->
+    
+    <div class="container-fluid pt-5 mt-5">
+            <div class="row min-vh-100">
+                <aside class="col-12 col-xl-3 p-0 bg-white">
+                    <nav class="navbar navbar-expand navbar-white bg-white sticky-top flex-xl-column flex-row align-items-start nopadl py-2">
+                        <div class="collapse sticky-top navbar-collapse">
+                            <ul class="flex-xl-column flex-row navbar-nav w-100 justify-content-between nav-font">
+                                <li class="nav-item ">
+                                    <a class="nav-link pl-0" href="index.html"><i class="fas fa-user-circle px-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">Home</span></a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link pl-0" href="info.html"><i class="fas fa-file-invoice px-3 py-3  fa-lg"></i> <span class="d-none d-md-inline">Personel Info</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pl-0" href="data.html"><i class="fas fa-toggle-on pl-2 pr-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">Data & Personalization</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pl-0" href="security.html"><i class="fas fa-user-lock pl-2 pr-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">Security</span></a>
+                                </li>
+                                <li class="nav-link-act">
+                                    <a class=" pl-0" href="people.html"><i class="fas fa-users pl-2 pr-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">People & Sharing</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-3 pl-0" href="payments.html"><i class="fa-credit-card pl-2 pr-3 py-3 fa-lg "></i> <span class="d-none d-md-inline py-3">Payments & Subscription</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </aside>
+                <main class="col bg-faded py-3">
+                    
+                     <!-- Main Content-->
 
         <div class="col pt-2 conwidth" id="main">
 
-                <div class="container conwidth">
-                        <h1 class="user">People & Sharing</h1>
-                        <div class="subuser">People you interact with and the info you make visible on Google services</div>
+            <div class="container conwidth">
+                    <h1 class="user">People & Sharing</h1>
+                    <div class="subuser">People you interact with and the info you make visible on Google services</div>
+            </div>
+            
+           <!--list goes here-->
+        <div class="row justify-content-center mt-5">
+            <ul  class="list-group">
+                <li class="list-group-item ">
+                    <h2 class="cardheader"> Contacts </h2>
+                    <div class="limg2">
+                        <div class="limg tr3"> Organize your Google contacts so you can connect with people on Google services, like Gmail </div>
+                            <div class="limg3"> <img src="img/peep.png">  </div>
+                    </div> 
+                    </a>
+                </li>
+                <div class="list-group-item ">
+                  <a href="">
+                      <div class="tr2">    
+                          <div class="licol7"> <img src="img/usercon.png"> </div>
+                          <div class="licol8 tr2"> Contacts </div>
+                          <div class="licol9 tr3"> 86 contacts </div>
+                          <div class="licol4"> <i class="far fa-stop-circle  pl-5 mt-1 "></i> </div>
+                      </div>
+                  </a>
                 </div>
-                
-               <!--list goes here-->
-               
-                <!--list ends here -->
+                <div class="list-group-item ">
+                  <a href="">
+                      <div class="tr2">    
+                          <div class="licol7"> <img src="img/contacts1.png"> </div>
+                          <div class="licol8 tr2"> Contact info from saved interactions </div>
+                          <div class="licol9 tr2"> <i class="fas fa-check-circle "></i> On </div>
+                          <div class="licol4"> <i class="fas fa-chevron-right pl-5 pt-3 mt-1 "></i> </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="list-group-item ">
+                  <a href="">
+                      <div class="tr2">    
+                          <div class="licol7"> <img src="img/contacts2.png"> </div>
+                          <div class="licol8 tr2"> Contact info from your devices </div>
+                          <div class="licol9 tr2"> <i class="fas fa-check-circle "></i> On </div>
+                          <div class="licol4"> <i class="fas fa-chevron-right pl-5 pt-3 mt-1 "></i> </div>
+                      </div>
+                  </a>
+                </div>
+                <div class="list-group-item ">
+                  <a href="">
+                      <div class="tr2">    
+                          <div class="licol7"> <img src="img/blocked.png"> </div>
+                          <div class="licol8 tr2"> Blocked </div>
+                          <div class="licol9 tr2"> No blocked users </div>
+                          <div class="licol4"> <i class="fas fa-chevron-right pl-5 pt-3 mt-1 "></i> </div>
+                      </div>
+                  </a>
+                </div>
+            </ul>
+        </div>
+            <!--list ends here -->
+
+            <!--Cards-->
+            <div class="container mb-5 cards2 conwidth">
+              <div class="row justify-content-center">
+                <div class="card-deck" >
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="limbod">
+                        <h5 class="card-title cardheader">Location sharing</h5>
+                        <div class="card-subtitle mb-2 tr3 limg text-muted"> You aren’t sharing your real-time location with anyone on Google </div>
+                        <div class="limg3 mx-3"> <img src="img/loc2.png"> </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                          <a href="#"> Manage location sharing</a>  
+                    </div>
+                  </div>
+          
+          
+          
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="libod">
+                          <h5 class="card-title cardheader">Choose whats others see</h5>
+                      </div>
+                      <div class="libod tr2">
+                          <div class="fimg pl-2 pr-3"><img src="img/aboutme.png"> </div>
+                          <div class="tr2 licol5"> About me <br>
+                              <div class="cardPara"> What personal info you make visible to others across Google services </div> 
+                          </div>
+                          <div class="licol6"> <i class="far fa-stop-circle "></i> </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          </div>
+          <!-- cards end here -->
+
+
+           <!--list goes here-->
+        <div class="row justify-content-center my-5">
+          <ul  class="list-group">
+            <li class="list-group-item ">
+                <h2 class="cardheader"> Share recommendations in ads </h2>
+                <div class="limg2">
+                    <div class="limg tr3"> You can choose to show your name, profile photo, and activity in shared endorsements in ads to help others find things you're interested in </div>
+                </div> 
+                </a>
+            </li>
+            <div class="list-group-item ">
+              <a href="">
+                  <div class="tr2">    
+                      <div class="licol7"> <img src="img/pencil.png"> </div>
+                      <div class="licol8 tr2"> Shared endorsements in ads </div>
+                      <div class="licol9 tr2"> <i class="fas fa-check-circle "></i> On </div>
+                      <div class="licol4">  </div>
+                  </div>
+              </a>
+            </div>
+          </ul>
+      </div>
+          <!--list ends here -->
+
 
                 
 
