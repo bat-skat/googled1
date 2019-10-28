@@ -21,6 +21,10 @@ html,body{
   max-width: 858px;
 }
 
+.cards4{
+  width: 856px;
+}
+
 /* search bar */
 .srch{
      
@@ -315,7 +319,7 @@ html,body{
 
   .lirow4{
     float: left;
-    max-width: 510px;
+    width: 62%;
     padding: 5px 0;
     text-align: center;
     padding-right: 0px;
@@ -330,10 +334,9 @@ html,body{
 
   .lirow6{
     float: left;
-    max-width: 450px;
+    width: 450px;
     padding: 5px 0;
-    padding-right: 0px;
-    margin-left: 100px;
+    margin-left: 13%;
   }
 
   .lirow7{
@@ -383,7 +386,7 @@ html,body{
   .licons{
     padding-top: 25px;
     float: left;
-    max-width: 150px; 
+    width: 150px; 
   }
 
   .licol{
@@ -423,7 +426,7 @@ html,body{
   }
 
   .licol8{
-    width: 255px;
+    width: 16%;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
@@ -431,7 +434,7 @@ html,body{
   }
 
   .licol9{
-    width: 350px;
+    width: 55%;
     float: left;
     margin-top: 10px;
     margin-right: 40px;
