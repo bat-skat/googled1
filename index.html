@@ -15,23 +15,24 @@
 
     <!-- nav bar -->
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white pt-2">
-      <img src="img/logo.PNG" alt="missing">
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+        <img src="img/logo.PNG" alt="missing">
+        
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <form class="form-center mx-auto">
+                <input type="text" class="form-control mr-lg-2 bg-light srch" placeholder="Search">
+            </form>
+        </div>
   
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <form class="form-center mx-auto">
-              <input type="text" class="form-control mr-lg-2 bg-light srch" placeholder="Search">
-          </form>
-      </div>
-
-      <form class="form-inline">
-        <a href="#" > <i class="far fa-caret-square-down fa-2x gray"></i> </a> 
-        &nbsp;&nbsp;
-        <a href="#"> <i class="far fa-circle fa-2x gray"></i> </a>
-      </form>
-    </nav>
+        <form class="form-inline">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" > <i class="pl-3 far fa-caret-square-down fa-2x gray"></i> </a> 
+            &nbsp;&nbsp;
+            <a href="#"> <i class="far fa-circle fa-2x gray"></i> </a>
+        </form>
+      </nav>
     <!-- Side Navbar -->
     
     <div class="container-fluid pt-5 mt-5">
@@ -69,9 +70,9 @@
                     
                     <!-- Main Content-->
 
-                    <div class="col conwidth  " id="main">
+                    <div class="col  conwidth " id="main">
 
-                            <div class="content">
+                            <div class="content cards6">
                                 <div class="container wel mx-auto">
                                 <div class="over">
                                 <img src="img/userimg.png" class=" ">
@@ -83,12 +84,12 @@
                             </div>
                         <!--Cards-->
 
-                        <div class="container cards pl-5">
+                        <div class="container cards">
                             <div class="row ">
                                 <div class="card-deck px-5" >
-                                        <div class="card flex-row flex-wrap mt-5 " >
+                                        <div class="card cards5 flex-row flex-wrap mt-5 " >
                                                 <div class="card-block px-2 pt-4 pl-4">
-                                                    <h4 class="card-title cardHeader">Privacy & <br> personalization</h4>
+                                                    <h4 class="card-title cardheader">Privacy & <br> personalization</h4>
                                                     <p class="card-text cardPara pb-1">See the data in your Google Account <br> and choose what activity is saved to <br> personalize your Google experience</p>
                                                     
                                                 </div>
@@ -103,9 +104,9 @@
                                 
 
                                 
-                                        <div class="card flex-row flex-wrap mt-5" >
+                                        <div class="card cards5 flex-row flex-wrap mt-5" >
                                                 <div class="card-block px-1 pt-4 pb-1 pl-4 ">
-                                                    <h4 class="card-title cardHeader">Security issues found</h4>
+                                                    <h4 class="card-title cardheader">Security issues found</h4>
                                                     <p class="card-text cardPara pb-5">Protect your account now by resolving <br> these issues</p>
                                                     
                                                 </div>
@@ -121,10 +122,10 @@
                             </div>
 
                             <div class="row ">
-                                <div class="card-deck px-5">
-                                        <div class="card flex-row flex-wrap mt-5">
+                                <div class="card-deck px-5">        
+                                        <div class="card cards5 flex-row flex-wrap mt-5">
                                                 <div class="card-block px-2 pt-4 pl-4">
-                                                    <h4 class="card-title cardHeader ">Account storage</h4>
+                                                    <h4 class="card-title cardheader ">Account storage</h4>
                                                     <p class="card-text cardPara pb-1">Your account storage is shared across <br> Google services, like Gmail and <br> Photos</p>
                                                     
                                                 </div>
@@ -143,15 +144,18 @@
                                 
 
                                 
-                                        <div class="card flex-row flex-wrap mt-5 ">
+                                        <div class="card cards5 flex-row flex-wrap mt-5 ">
                                                 <div class="card-block px-2 pt-4 pl-4">
-                                                    <h4 class="card-title cardHeader">Take the Privacy <br> Checkup</h4>
+                                                    <h4 class="card-title cardheader">Take the Privacy <br> Checkup</h4>
                                                     <p class="card-text cardPara pb-3">This step-by-step guide helps you <br> choose the privacy settings that are <br> right for you</p>
                                                     
                                                 </div>
                                                 <div class="card-header bg-white border-0">
                                                         <img src="./img/privacy.png" alt="">
                                                 </div>
+
+                                                <div><h3 class="stor py-2 pl-4">&nbsp;</h3></div>
+
                                                 <div class="w-100"></div>
                                                 <div class="card-footer bg-white w-100 text-muted">
                                                     <a href="#" class="cardFoot">Get started</a>
@@ -161,8 +165,10 @@
                                 
                             </div>
 
+                            </div>
+
                             <!-- cards end here -->
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center cards6">
                                 <div class="container mt-5">
                                     <p class="fpbp">
                                     Only you can see your settings. You might also want to review your settings for Maps, Search, or whichever 
