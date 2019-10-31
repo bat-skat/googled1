@@ -26,13 +26,17 @@ html,body{
   width: 856px;
 }
 
+.cards7{
+  width: 408px;
+}
+
 /* search bar */
 .srch{
      
     border-width: 0px; 
     margin-right: 0px; 
     border-radius: 0.50rem;
-    width: 500px;
+    width: 475px;
 }
 
 /* gray color */
@@ -264,13 +268,13 @@ html,body{
 
   .lirow{
     float: left;
-    max-width: 200px;
+    width: 25%;
     padding: 20px 0;
   }
   
   .lirow2{
     float: left;
-    max-width: 500px;
+    width: 65%;
     padding: 20px 0;
   }
 
@@ -398,7 +402,7 @@ html,body{
   }
 
   .licol8{
-    width: 16%;
+    width: 18%;
     float: left;
     margin-left: 10px;
     margin-right: 10px;

@@ -9,96 +9,190 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Google Account</title>
   </head>
   <body>
 
     <!-- nav bar -->
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white pt-2">
-      <img src="img/logo.PNG" alt="missing">
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <form class="form-center mx-auto">
-              <input type="text" class="form-control mr-lg-2 bg-light srch" placeholder="Search">
-          </form>
-      </div>
-
-      <form class="form-inline">
-        <a href="#" > <i class="far fa-caret-square-down fa-2x gray"></i> </a> 
-        &nbsp;&nbsp;
-        <a href="#"> <i class="far fa-circle fa-2x gray"></i> </a>
-      </form>
-    </nav>
-    <!-- Side Navbar -->
-    <div class="container-fluid ">
-      <div class="row">
-          <div class="col-xl-3 px-1 bg-white ">
-              <div class=" sticky-top flex-grow-1">
-                  <div class="nav flex-xl-column pt-4 mt-5">
-                      <a href="index.html" class="nav-link nav-font"><i class="fas fa-user-circle px-3 py-3 fa-lg"></i>Home</a>
-                      <a href="info.html" class="nav-link-act nav-font"><i class="fas fa-file-invoice px-3 py-3  fa-lg"></i>Personal info</a>
-                      <a href="data.html" class="nav-link nav-font"><i class="fas fa-toggle-on pl-2 pr-3 py-3 fa-lg"></i>Data & personalization</a>
-                      <a href="#contact" class="nav-link nav-font"><i class="fas fa-user-lock pl-2 pr-3 py-3 fa-lg"></i>Security</a>
-                      <a href="#contact" class="nav-link nav-font"><i class="fas fa-users pl-2 pr-3 py-3 fa-lg"></i>People & sharing</a>
-                      <a href="#contact" class="nav-link nav-font py-3"><i class="fa-credit-card pl-2 pr-3 py-3 fa-lg "></i>Payments & subscriptions</a>
-                  </div>
-              </div>
-          </div>
+        <img src="img/logo.PNG" alt="missing">
         
-          <!-- Main Content-->
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <form class="form-center mx-auto">
+                <input type="text" class="form-control mr-lg-2 bg-light srch" placeholder="Search">
+            </form>
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="index.html">  Home </a></button>
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="info.html">  Personal Info </a></button>
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="data.html">  Data & Personalization </a></button>
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="security.html">  Security </a></button> 
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="people.html">  People & Sharing </a></button>
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="payments.html">  Payment & Subscription </a></button>
+            <button type="button" class="btn btn-link	d-block d-sm-none"><a href="help.html">  Help </a></button>
+        </div>
+  
+        <form class="form-inline">
+            
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" > <i class="pl-3 far fa-caret-square-down fa-2x gray"></i> </a> 
+            &nbsp;&nbsp;
+            <a href="#"> <i class=" far fa-circle fa-2x gray"></i> </a>
+        </form>
+        
+      </nav>
+    <!-- Side Navbar -->
+    
+    <div class="container-fluid pt-5 mt-5">
+            <div class="row min-vh-100">
+                <aside class="col-12 col-xl-2 p-0 bg-white">
+                    <nav class="navbar navbar-expand navbar-white bg-white sticky-top flex-xl-column flex-row align-items-start nopadl py-2">
+                        <div class="collapse sticky-top navbar-collapse">
+                            <ul class="flex-xl-column flex-row navbar-nav w-100 justify-content-between nav-font">
+                                <li class="nav-link-act 	d-none d-sm-block">
+                                    <a class="py-3 pl-0" href="index.html"><i class="fas fa-user-circle px-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">Home</span></a>
+                                </li>
+                                <li class="nav-item d-none d-sm-block">
+                                    <a class="nav-link pl-0" href="info.html"><i class="fas fa-file-invoice px-3 py-3  fa-lg"></i> <span class="d-none d-md-inline">Personel Info</span></a>
+                                </li>
+                                <li class="nav-item d-none d-sm-block">
+                                    <a class="nav-link pl-0" href="data.html"><i class="fas fa-toggle-on pl-2 pr-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">Data & Personalization</span></a>
+                                </li>
+                                <li class="nav-item d-none d-sm-block">
+                                    <a class="nav-link pl-0" href="security.html"><i class="fas fa-user-lock pl-2 pr-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">Security</span></a>
+                                </li>
+                                <li class="nav-item d-none d-sm-block">
+                                    <a class="nav-link pl-0" href="people.html"><i class="fas fa-users pl-2 pr-3 py-3 fa-lg"></i> <span class="d-none d-md-inline">People & Sharing</span></a>
+                                </li>
+                                <li class="nav-item d-none d-sm-block">
+                                    <a class="nav-link py-3 pl-0" href="payments.html"><i class="fa-credit-card pl-2 pr-3 py-3 fa-lg "></i> <span class="d-none d-md-inline py-3">Payments & Subscription</span></a>
+                                </li>
+                                
+                                <li class="nav-item d-none d-sm-block">
+                                    <a class="nav-link py-3 pl-0" href="help.html"> <i class="fas fa-question pl-2 pr-3 fa-lg"></i> <span class="d-none d-md-inline py-3">Help</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </aside>
+                <main class="col bg-faded py-3">
+                    
+                    <!-- Main Content-->
 
-        <div class="col pt-2 conwidth" id="main">
+                    <div class="col  conwidth " id="main">
 
-                <div class="container conwidth">
-                        <h1 class="user">Download, delete, or make a plan for your data</h1>
-                </div>
-                
-               <!--list goes here-->
-               <div class="container mt-4">
-                    <div class="row justify-content-center">
-                        <ul class="list-group">
-                            <li class="list-group-item ">
-                                <h2 class="cardheader"> Signing in to other sites </h2>
-                            </li>
-                            <div class="list-group-item ">
-                                <a href="">
-                                    <div class="tr2">    
-                                        <div class="licol7"> <img src="img/goglogo.png"> </div>
-                                        <div class="licol8 tr2"> Signing in with Google </div>
-                                        <div class="licol9 tr3"> You use your Google Account to sign in to 7 sites and apps</div>
-                                        <div class="licol4"> <i class="fas fa-chevron-right pl-5 pt-3 mt-1 "></i> </div>
-                                    </div>
-                                </a>
+                            <div class="content cards6">
+                                <div class="container wel mx-auto">
+                                <div class="over">
+                                <img src="img/userimg.png" class=" ">
+                                </div>
+
+                                <div class="user pt-3"> Welcome, Suhaib </div>
+                                <div class="subuser mt-3">Manage your info, privacy, and security to make Google work better for you
+                                </div>
+                            </div>
+                        <!--Cards-->
+
+                        <div class="container cards">
+                            <div class="row ">
+                                <div class="card-deck px-5" >
+                                        <div class="card cards5 flex-row flex-wrap mt-5 " >
+                                                <div class="card-block px-2 pt-4 pl-4">
+                                                    <h4 class="card-title cardheader">Privacy & <br> personalization</h4>
+                                                    <p class="card-text cardPara pb-1">See the data in your Google Account <br> and choose what activity is saved to <br> personalize your Google experience</p>
+                                                    
+                                                </div>
+                                                <div class="card-header bg-white border-0 pt-4">
+                                                        <img src="./img/personalization.png" alt="">
+                                                </div>
+                                                <div class="w-100"></div>
+                                                <div class="card-footer bg-white w-100 text-muted">
+                                                    <a href="#" class="cardFoot">Manage your data and personalization</a>
+                                                </div>
+                                        </div>
+                                
+
+                                
+                                        <div class="card cards5 flex-row flex-wrap mt-5" >
+                                                <div class="card-block px-1 pt-4 pb-1 pl-4 ">
+                                                    <h4 class="card-title cardheader">Security issues found</h4>
+                                                    <p class="card-text cardPara pb-5">Protect your account now by resolving <br> these issues</p>
+                                                    
+                                                </div>
+                                                <div class="card-header bg-white nopadl border-0">
+                                                        <img src="./img/security.png" alt="">
+                                                </div>
+                                                <div class="w-100"></div>
+                                                <div class="card-footer bg-white w-100 text-muted">
+                                                    <a href="#" class="cardFoot">Secure account</a>
+                                                </div>
+                                        </div>
+                                </div>
                             </div>
 
-                            <div class="list-group-item ">
-                                <a href="">
-                                    <div class="tr2">    
-                                        <div class="licol7"> <img src="img/asteric.png"> </div>
-                                        <div class="licol8"> Password Manager </div>
-                                        <div class="licol9 tr3"> You have 30 passwords saved in your Account. Password Manager makes it easier to sign in to sites and apps you use on any signed-in device. </div>
-                                        <div class="licol4"> <i class="fas fa-chevron-right pl-5 pt-3 mt-1 "></i> </div>
-                                    </div>
-                                </a>
+                            <div class="row ">
+                                <div class="card-deck px-5">        
+                                        <div class="card cards5 flex-row flex-wrap mt-5">
+                                                <div class="card-block px-2 pt-4 pl-4">
+                                                    <h4 class="card-title cardheader ">Account storage</h4>
+                                                    <p class="card-text cardPara pb-1">Your account storage is shared across <br> Google services, like Gmail and <br> Photos</p>
+                                                    
+                                                </div>
+
+                                                <div class="card-header bg-white nopadl border-0">
+                                                        <img src="./img/storage.png" alt="">
+                                                </div>
+
+                                                <div><h3 class="stor py-2 pl-4">4% used – 0.68 GB of 15 GB</h3></div>
+
+                                                <div class="w-100"></div>
+                                                <div class="card-footer bg-white w-100 text-muted">
+                                                    <a href="#" class="cardFoot">Manage Storage</a>
+                                                </div>
+                                        </div>
+                                
+
+                                
+                                        <div class="card cards5 flex-row flex-wrap mt-5 ">
+                                                <div class="card-block px-2 pt-4 pl-4">
+                                                    <h4 class="card-title cardheader">Take the Privacy <br> Checkup</h4>
+                                                    <p class="card-text cardPara pb-3">This step-by-step guide helps you <br> choose the privacy settings that are <br> right for you</p>
+                                                    
+                                                </div>
+                                                <div class="card-header bg-white border-0">
+                                                        <img src="./img/privacy.png" alt="">
+                                                </div>
+
+                                                <div><h3 class="stor py-2 pl-4">&nbsp;</h3></div>
+
+                                                <div class="w-100"></div>
+                                                <div class="card-footer bg-white w-100 text-muted">
+                                                    <a href="#" class="cardFoot">Get started</a>
+                                                </div>
+                                        </div>
+                                </div>
+                                
                             </div>
-                            <div class="list-group-item ">
-                                <a href="">
-                                    <div class="tr2">    
-                                        <div class="licol7"> <img src="img/pappin.png"> </div>
-                                        <div class="licol8"> Linked Accounts </div>
-                                        <div class="licol9 tr3"> You have no linked accounts. You can give Google access to data from your third-party sites and apps, like your playlists. </div>
-                                        <div class="licol4"> <i class="fas fa-chevron-right pl-5 pt-3 mt-1 "></i> </div>
-                                    </div>
-                                </a>
+
                             </div>
-                        </ul>
+
+                            <!-- cards end here -->
+                            <div class="row justify-content-center cards5">
+                                <div class="container mt-5">
+                                    <p class="fpbp">
+                                    Only you can see your settings. You might also want to review your settings for Maps, Search, or whichever 
+                                        Google services you use most. Google keeps your data private, safe, and secure.<a href="#" > Learn more </a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
-                </div>
-                <!--list ends here -->
+                </main>
+            </div>
+    </div>
 
                 
 
@@ -109,45 +203,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-@media screen and (max-width: 1024px) {
-    .nav-link{
-      border-bottom-right-radius: 0px;
-      border-top-right-radius: 0px;
-      width: 80px;
-      height: 50px;
-      background-color: white;
-      text-align: center;
-    }
-    .wel{
-      margin-right: 0 auto; 
-      width: 100%;
-      text-align: center;
-    }
-    .fas, .fa-credit-card {
-      display: none;
-  }
-  
-  @media (min-width: 700px){
-  .concards{
-      max-width: 900px; 
-    }
-  }
-  
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidenav a {
-      text-align: center;
-      float: left;
-    }
-    .srch{ display: none;}
-    .form-inline{ margin-left: 0%;}
-  }
-  
-  @media (max-width: 700px) {
-  
-    }
-  }
