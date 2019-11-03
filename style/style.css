@@ -26,6 +26,10 @@ html,body{
   width: 856px;
 }
 
+.cards8{
+  width: 870px;
+}
+
 .cards7{
   width: 408px;
 }
@@ -54,6 +58,7 @@ html,body{
 
 .nopadl{
   padding-left: 0px;
+  padding-right: 0%;
 }
 
 /* */
@@ -162,7 +167,7 @@ html,body{
   .cardPara{
     letter-spacing: .01428571em;
     font-family: 'Roboto',Arial,sans-serif;
-    font-size: .875rem;
+    font-size: .883rem;
     font-weight: 400;
     line-height: 1.25rem;
     -webkit-hyphens: auto;
@@ -213,6 +218,7 @@ html,body{
     color: #5f6368;
     margin: 0;
     text-align: center;
+    
   }
 
   a:hover {
@@ -300,7 +306,7 @@ html,body{
 
   .lirow6{
     float: left;
-    width: 450px;
+    width: 55%;
     padding: 5px 0;
     margin-left: 13%;
   }
@@ -373,7 +379,7 @@ html,body{
   
   .licol2{
     float: left;
-    width: 550px;
+    width: 96%;
     padding: 5px 0;
   }
 
@@ -460,11 +466,10 @@ html,body{
   .nav-link{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
-    width: 80px;
+    width: 100%;
     height: 50px;
     background-color: white;
     text-align: center;
-    
   }
 
   .wel{
@@ -510,10 +515,48 @@ html,body{
 /* On screens that are less than 320px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 320px) {
   .cards5{
-    min-width: 125%;
+    min-width: 130%;
   }
   .cards6{
     min-width: 140%;
   }
+  .cards9{
+    min-width: 100%;
+  }
 }
 
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .imgsz{
+    width: 100%;
+  }
+  div.content {
+    padding-top: 0px;
+    padding-right: 0px;;
+  }
+
+  .cardPara{
+    width: 100%;
+  }
+
+  .cardheader{
+    font-size: 1.250rem;
+  }
+
+  .licol7{
+    width: 40%;
+  }
+
+  .licol8{
+    width: 60%;
+  }
+
+  .licol9{
+    width: 100%;
+    padding-right: 20%;
+  }
+
+  .limg{
+    max-width: 100%;
+  }
+}
