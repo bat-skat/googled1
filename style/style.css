@@ -461,6 +461,59 @@ html,body{
     height: 5%;
   }
 
+  .navin{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+
+  .navinfo{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navdata{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navsec{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navin{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navsec{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navpep{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navpay{
+    
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navpay{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+  .navhelp{
+    padding-top: 7%;
+    padding-bottom: 7%  ;
+  }
+
 /* On screens that are less than 1024px wide, make the sidebar into a topbar */
 @media screen and (max-width: 1200px) {
   .nav-link{
@@ -470,6 +523,44 @@ html,body{
     height: 50px;
     background-color: white;
     text-align: center;
+  }
+
+  .navin{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .navinfo{
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .navdata{
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+  }
+
+  .navsec{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .navpep{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .navpay{
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .navhelp{
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .wel{
