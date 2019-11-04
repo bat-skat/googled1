@@ -9,6 +9,15 @@ html,body{
    
 }
 
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 90px;
+}
+
 .cards{
   max-width: 1000px;
 }
@@ -119,7 +128,6 @@ html,body{
   div.content {
     padding-top: 0px;
     height: 870px;
-    padding-right: 30px;;
   }
 
   .over img {
@@ -176,6 +184,10 @@ html,body{
     word-wrap: break-word;
     color: #5f6368;
     margin: 0;
+  }
+
+  .cardtxt{
+    max-width: 64%;
   }
 
   .cardFoot{
@@ -280,7 +292,7 @@ html,body{
   
   .lirow2{
     float: left;
-    width: 65%;
+    width: 60%;
     padding: 20px 0;
   }
 
@@ -483,16 +495,6 @@ html,body{
     padding-bottom: 7%;
   }
 
-  .navin{
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-
-  .navsec{
-    padding-top: 7%;
-    padding-bottom: 7%;
-  }
-
   .navpep{
     padding-top: 7%;
     padding-bottom: 7%;
@@ -502,11 +504,7 @@ html,body{
     
     padding-top: 7%;
     padding-bottom: 7%;
-  }
-
-  .navpay{
-    padding-top: 7%;
-    padding-bottom: 7%;
+    width: max-content;
   }
 
   .navhelp{
@@ -515,7 +513,7 @@ html,body{
   }
 
 /* On screens that are less than 1024px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .nav-link{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
@@ -603,6 +601,61 @@ html,body{
   }
 }
 
+/* On screens that are less than 900px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 900px) {
+  .cardtxt{
+   max-width: 60%;
+  }
+}
+
+/* On screens that are less than 700px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 800px) {
+  .cardtxt{
+   max-width: 100%;
+  }
+
+
+  .lirow6{
+    max-width: 50%;
+  }
+
+  .lirow7{
+    max-width: 50%;
+    margin-left: 20px;
+  }
+}
+
+/* On screens that are less than 660px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 660px) {
+  .licol{
+    max-width: 50%;
+  }
+  .lirow4{
+    max-width: 50%;
+  }
+  .licol7{
+    max-width: 9%;
+  }
+  .licol8{
+    max-width: 20%;
+    float: left;
+  }
+  .licol9{
+    max-width: 48%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .lirow6{
+    max-width: 30%;
+  }
+  .lirow7{
+    max-width: 50%;
+    margin-left: 20px;
+  }
+}
+
+
 /* On screens that are less than 320px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 320px) {
   .cards5{
@@ -635,19 +688,67 @@ html,body{
   }
 
   .licol7{
-    width: 40%;
+    min-width: 15%;
   }
 
   .licol8{
-    width: 60%;
+    width: 100%;
   }
 
   .licol9{
     width: 100%;
-    padding-right: 20%;
+    padding-right: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+
 
   .limg{
     max-width: 100%;
+  }
+
+  .licol10{
+    min-width: 60%;
+    margin-left: 20px;
+   }
+ 
+   .licol11{
+     float: left;
+     min-width: 100%;
+     padding-top: 1%;
+   }
+}
+
+/* On screens that are less than 380px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 385px) {
+  .licol7{
+    min-width: 15%;
+  }
+  .licol8{
+    min-width: 68%;
+  }
+  .licol9{
+    min-width: 100%;
+  }
+}
+
+/* On screens that are less than 550px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 550px) {
+  .limg{
+   min-width: 100%;
+  }
+}
+
+/* On screens that are less than 500px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 500px) {
+  .licol10{
+   width: 35%;
+   margin-left: 20px;
+  }
+
+  .licol11{
+    float: left;
+    width: 45%;
+    padding-top: 1%;
   }
 }
