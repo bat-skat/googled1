@@ -512,6 +512,14 @@ html,body{
     padding-bottom: 7%  ;
   }
 
+  .iconpad{
+    padding: 15px;
+  }
+
+  .iconcol{
+    color: #3c4043;
+  }
+
 /* On screens that are less than 1024px wide, make the sidebar into a topbar */
 @media screen and (max-width: 1199px) {
   .nav-link{
@@ -524,41 +532,41 @@ html,body{
   }
 
   .navin{
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     padding-right: 0rem;
     padding-left: 0rem;
   }
 
   .navinfo{
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .navdata{
-    padding-top: 2.5%;
-    padding-bottom: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .navsec{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .navpep{
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .navpay{
     
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .navhelp{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .wel{
@@ -576,6 +584,8 @@ html,body{
     text-align: center;
     padding-left: 10px;
   }
+
+  
 
 @media (min-width: 700px){
 .concards{
